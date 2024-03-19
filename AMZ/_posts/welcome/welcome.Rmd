@@ -19,8 +19,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about creating blogs with Distill at:
 # https://rstudio.github.io/distill/blog.html
+create_github_token(
+  scopes = c("repo", "user", "gist", "workflow"),
+  description = "DESCRIBE THE TOKEN'S USE CASE",
+  host = NULL
+)
+
+
 
 ```
-
-
-
